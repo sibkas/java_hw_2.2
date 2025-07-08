@@ -14,7 +14,7 @@ public class Main {
         int amount = 1000;
 
 
-        int bonus = amount >= 1000 ? (amount / 100) : 0;
+        int bonus = amount > 1000 ? (amount / 100) : 0;
 
         System.out.println("Вам начисленно " + bonus + " бонусных рублей\nВаш счёт: " + (balance + bonus + amount) + " рублей");
     }
